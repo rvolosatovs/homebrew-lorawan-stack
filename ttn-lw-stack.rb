@@ -2,16 +2,16 @@
 class TtnLwStack < Formula
   desc "The Things Stack for LoRaWAN"
   homepage "https://www.thethingsnetwork.org"
-  version "3.1.1"
+  version "3.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.1.1/lorawan-stack_3.1.1_darwin_amd64.tar.gz"
-    sha256 "4ac6a73e33850fc7da6098bfb677b117fabe16b57f8de6c9a53b8c790432543e"
+    url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack_3.2.1_darwin_amd64.tar.gz"
+    sha256 "38972c6fd54b34ac1c75a1a5b6b5c96fd5cba1b919f8789293c566c571e0fe7d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.1.1/lorawan-stack_3.1.1_linux_amd64.tar.gz"
-      sha256 "b74c3bac33db40bbb73f5362f30bcb6b181216e4107f16e2ee2343ab5b29cda7"
+      url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack_3.2.1_linux_amd64.tar.gz"
+      sha256 "96eaf8398992691c73b807f83028f08301f66403ec388df67fbc08dba46ff6ca"
     end
   end
   
