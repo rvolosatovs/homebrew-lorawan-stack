@@ -7,11 +7,11 @@ class TtnLwCli < Formula
 
   if OS.mac?
     url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack-cli_3.2.1_darwin_amd64.tar.gz"
-    sha256 "b0e8353b5e6ae9b2d86890ace47ad50a92d7f1cdf2302f1b4b4eccb4c1379266"
+    sha256 "aef2e4daf1eaaf734c29e453504aa51bad4545c6dce8fb5267fb1c42399f6a0d"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack-cli_3.2.1_linux_amd64.tar.gz"
-      sha256 "662d8ba82795dbd9d4e90641b8073c72a79e319b2e64351fa6fd325f572ab302"
+      sha256 "9d6a44f2058cd2d1cf0df2519dab5a0f253bbf51b90aa206996a1bca972eea73"
     end
   end
   
