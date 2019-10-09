@@ -2,16 +2,16 @@
 class TtnLwCli < Formula
   desc "CLI of The Things Stack for LoRaWAN"
   homepage "https://www.thethingsnetwork.org"
-  version "3.1.1"
+  version "3.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.1.1/lorawan-stack-cli_3.1.1_darwin_amd64.tar.gz"
-    sha256 "182bb62660a7145c0816064c1168e185672617b35921139d0f5db4992d798339"
+    url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack-cli_3.2.1_darwin_amd64.tar.gz"
+    sha256 "234ded299cc68a6b9e114646195de1a7bdb68792cb7de0c474d79b0e8c70e2f9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.1.1/lorawan-stack-cli_3.1.1_linux_amd64.tar.gz"
-      sha256 "b8f224f5d3438f66091f1563ef8184039d2b28bd8722308894af873a521968c1"
+      url "https://github.com/rvolosatovs/lorawan-stack/releases/download/v3.2.1/lorawan-stack-cli_3.2.1_linux_amd64.tar.gz"
+      sha256 "cbfdc51284f85bfb32bf146bd7d5658502ccc202e0711190a4829767557d8f52"
     end
   end
   
